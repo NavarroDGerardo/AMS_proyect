@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #0282B6; 
+}
+
+.options{
+    float: left;
+    list-style: none;
+    margin-left: 5%;
+    font-size: 25px;
+    margin-top: 27.5px;
+    color: white;
+}
+
+#mostR{
+    margin-left: 65%
+}
+
+.perfilContent{
+    width: 20%;
+    height: 700px;
+    background-color: #0282B6;
+    float: left;
+    margin: 5% 0 0 10%;
+}
+
+.progresoContent{
+    width: 60%;
+    height: 700px;
+    background-color: lightgrey;
+    float: left;
+    margin-top: 5%;
+}
+
+.pp{
+    border-radius: 50%;
+    width: 50%;
+    height: 20%;
+    margin: 5% 0 0 30%;
+}
+
+.nombre{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5%;
+    text-decoration: underline;
+}
+
+.infoGeneral{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+.guardar{
+    width: 40%;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 60% 30% 0;
+}
+.tipoUsuario{
+    position: relative;
+    top:-100px;
+    right: -40px;
+}
+
+.guardar:hover{
+    background-color: darkgrey;
+}
+.borrar{
+    position: relative;
+    top:-130px;
+    width: 40%;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 60% 30% 0;
+}
+
+.borrar:hover{
+    background-color: darkgrey;
+}
+table{
+    width: 80%;
+    height: 85%;
+    margin: 4% 10%;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+th{
+    border-right: 1px solid black;  
+    border-left: 1px solid black;
+}
+.tabla{
+    position: relative;
+    top: 80px;
+    right: -56px;
+    height: 200px;
+    font-size: 23px;
+}
+
+input{
+    width: 130px;
+    height: 25px;
+}

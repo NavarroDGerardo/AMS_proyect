@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+        <link href="css/registro.css" rel="stylesheet">
+</head>
+    
+<body>
+    <header>
+        <ul>
+            <li id="mostR" class="options">Ingreso</li>
+            <li class="options">Registro</li>
+            <li class="options">Nosotros</li>
+            <li class="options">Contacto</li>
+        </ul>
+    </header>
+    <div id="backg"></div>
+    <div id="content">
+        <h1 id="tittle">Registro</h1>
+        <input class="leftInput" type="text" name="nombre" placeholder="nombre">
+        <input class="rigthInput" type="text" name="apellido" placeholder="apellido"><br>
+        <input class="leftInput" type="text" name="nombre usuario" placeholder="nombre usuario">
+        <input class="rigthInput" type="password" name="contraseña" placeholder="contraseña">
+        <br>
+        <p class="text">fecha de nacimiento:</p>
+        <input id="fecha" class="sInput" type="date" name="fehcaNacimiento" placeholder="dd/mm/aaaa">
+        <br><br>
+        
+        <p class="text">tipo de usuario</p>
+        <select id="tipoU" class="sInput">
+            <option value="N/A">seleccionar Usuario</option>
+            <option value="Médico">Médico</option>
+            <option value="Entrenador">Entrenador</option>
+            <option value="Robusto">Robusto</option>
+            <option value="Pre-fragil">Pre-fragil</option>
+            <option value="Fragil">Fragil</option>
+        </select>
+        
+        <br>
+        <input class="submitBoton" type="button" value="Registrar">
+    </div>
+</body>
+
+</html>
